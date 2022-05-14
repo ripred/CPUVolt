@@ -9,6 +9,6 @@
 #ifndef CPUVOLT_H_INC
 #define CPUVOLT_H_INC
 
-double readVcc();
+signed long readVcc();
 
 #endif
