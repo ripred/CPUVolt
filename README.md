@@ -16,7 +16,7 @@ Example use:
         Serial.begin(115200);
     
         // Measure the processor's Vcc voltage:
-        double volts = voltage();
+        double volts = readVcc();
     
         // Format it as a string to 2 decimal places:
         char fstr[8];
