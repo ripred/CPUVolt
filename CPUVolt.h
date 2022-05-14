@@ -1,14 +1,14 @@
 /*\ =========================================================================
 |*|
 |*| Library to use the internal registers in the ATMega cpu to calculate
-|*| the internal temperature:
+|*| the processor's Vcc voltage:
 |*|
 |*| =========================================================================
 \*/
 
-#ifndef CPUTEMP_H_INC
-#define CPUTEMP_H_INC
+#ifndef CPUVOLT_H_INC
+#define CPUVOLT_H_INC
 
-double temperature();
+double readVcc();
 
 #endif
