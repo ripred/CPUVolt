@@ -2,7 +2,7 @@
 
 ## Measure the voltage of the processor.
 
-Measure the voltage applied to Vcc on the ATMega processor using nothing more than the internal registers.
+Measure the voltage applied to Vcc on the Microchip (Atmel) ATMega processors using nothing more than the internal registers.
 NO external parts necessary. 
 
 Example use:
