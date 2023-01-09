@@ -5,6 +5,8 @@
 Measure the voltage applied to Vcc on the Microchip (Atmel) ATMega processors using nothing more than the internal registers.
 NO external parts necessary. 
 
+[see this Microchip application note to learn more about the internal features used and supported to implement this feature](https://ww1.microchip.com/downloads/en/Appnotes/00002447A.pdf)
+
 Example use:
 
 #
