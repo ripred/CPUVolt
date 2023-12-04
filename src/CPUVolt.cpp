@@ -3,7 +3,15 @@
 |*| CPUVolt.cpp
 |*|
 |*| Function to use the internal registers in the ATMega cpu to calculate
-|*| the processors AVcc:
+|*| the processors AVcc.
+|*|
+|*| Also supports returning the voltage as a percentage with optional
+|*| min and max voltage range. This is useful for returning the battery
+|*| percent between 3.2V and 4.2V (for example). You can set the voltage 
+|*| range considered to be 0% and 100%.
+|*| 
+|*| version 1.0: 2022, ++trent m. wyatt
+|*| version 1.1: 3, Dec, 2022, ++trent m. wyatt
 |*|
 |*| =========================================================================
 \*/
@@ -13,7 +21,7 @@
 
 #include "CPUVolt.h"
 
-signed long readVcc() {
+long readVcc() {
     // Read 1.1V reference against AVcc
     // Set the reference to Vcc and the measurement to the internal 1.1V reference
 
@@ -39,3 +47,13 @@ signed long readVcc() {
     result = 1125300L / result;       // Calculate Vcc (in mV); 1125300 = 1.1 * 1023 * 1000
     return result;                    // Vcc in millivolts
 }
+
+// return the voltage percent between 0% and 100%
+float readPercent(float min_volt, float max_volt) {
+    return (readVcc() - min_volt) * 100.0 / (max_volt - min_volt);
+}
+
+float readPercent(float max_volt /*= 5000*/) {
+    return float(readVcc()) * 100.0 / max_volt;
+}
+
