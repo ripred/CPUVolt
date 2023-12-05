@@ -58,8 +58,8 @@ Output:
 
 #
 ```
-    Voltage: 4.73
-    Percent: 94.56
-    Percent: 101.56
+    Voltage: 4.67
+    Percent: 93.38
+    Percent: 98.28
 ```
 
