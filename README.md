@@ -7,7 +7,7 @@ NO external parts necessary!
 
 [see this Microchip application note to learn more about the internal features used and supported to implement this feature](https://ww1.microchip.com/downloads/en/Appnotes/00002447A.pdf)
 
-Update: Now includes support for reading the voltage as a percentage of total charge. 
+Update: Now includes support for reading the voltage as a percentage of total capacity. 
 You can also optionally supply the voltage level that is considered to be 0% and the voltage level considered to be 100%. 
 This is really useful for battery-based projects! You can now specify the lower voltage level you would like to use to
 indicate when the system needs charging and when it is fully charged.
