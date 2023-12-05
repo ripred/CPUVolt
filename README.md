@@ -61,6 +61,5 @@ Output:
     Voltage: 4.73
     Percent: 94.56
     Percent: 101.56
-
 ```
 
