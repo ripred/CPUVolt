@@ -1,6 +1,6 @@
 # CPU Voltage
 
-## Measure the voltage of the processor.
+## Measure the voltage of the processor or retrieve the percent of charge for battery based systems.
 
 Measure the voltage applied to Vcc on the Microchip (Atmel) ATMega processors using nothing more than the internal registers.
 NO external parts necessary!
