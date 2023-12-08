@@ -15,7 +15,7 @@ indicate when the system needs recharging and the level at which it is fully cha
 Example use:
 
 #
-```
+```cpp
 /*
  * CPUVolt.ino
  * 
