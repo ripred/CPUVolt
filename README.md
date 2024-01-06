@@ -11,7 +11,7 @@ NO external parts or connections necessary!
 You can also optionally supply the voltage level that is considered to be 0% and the voltage level considered to be 100%. 
 This is really useful for battery-based projects! You can now specify the lower voltage level you would like to use to
 indicate when the system needs recharging and the level at which it is fully charged!
-
+___
 Example use:
 
 #
