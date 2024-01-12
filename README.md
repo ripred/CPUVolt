@@ -13,7 +13,6 @@ This is really useful for battery-based projects! You can now specify the lower 
 indicate when the system needs recharging and the level at which it is fully charged!
 ___
 Example use:
-#
 ```cpp
 /*
  * CPUVolt.ino
