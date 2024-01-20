@@ -1,3 +1,6 @@
+[![counter](https://img.shields.io/github/downloads/ripred/CPUVolt/latest/total)](https://github.com/ripred/CPUVolt/releases)
+[![counter](https://img.shields.io/github/downloads/ripred/CPUVolt/total)](https://github.com/ripred/CPUVolt/releases)
+
 # CPU Voltage
 
 ## Measure the voltage of the processor or retrieve the percent of charge for battery based systems.
