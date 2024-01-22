@@ -22,6 +22,10 @@
 
 #include "CPUVolt.h"
 
+#ifndef bit_is_set
+#define bit_is_set(sfr, bit) (_SFR_BYTE(sfr) & _BV(bit))
+#endif
+
 long readVcc() {
     // Read 1.1V reference against AVcc
     // Set the reference to Vcc and the measurement to the internal 1.1V reference
