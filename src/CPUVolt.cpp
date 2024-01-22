@@ -17,7 +17,6 @@
 \*/
 
 #include <avr/io.h>
-#include <avr/sfr_defs.h>
 #include <Arduino.h>
 
 #include "CPUVolt.h"
