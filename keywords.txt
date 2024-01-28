@@ -9,7 +9,8 @@
 #################################################
 # Methods and Functions (KEYWORD2)
 #################################################
-voltage	KEYWORD2
+readVcc	KEYWORD2
+readPercent	KEYWORD2
 
 #################################################
 # Constants (LITERAL1)
