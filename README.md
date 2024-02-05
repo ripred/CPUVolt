@@ -1,6 +1,5 @@
 [![Arduino CI](https://github.com/ripred/CPUVolt/workflows/Arduino%20CI/badge.svg)](https://github.com/marketplace/actions/arduino_ci)
 [![Arduino-lint](https://github.com/ripred/CPUVolt/actions/workflows/arduino-lint.yml/badge.svg)](https://github.com/ripred/CPUVolt/actions/workflows/arduino-lint.yml)
-[![JSON check](https://github.com/ripred/CPUVolt/actions/workflows/jsoncheck.yml/badge.svg)](https://github.com/ripred/CPUVolt/actions/workflows/jsoncheck.yml)
 ![code size:](https://img.shields.io/github/languages/code-size/ripred/CPUVolt)
 [![GitHub release](https://img.shields.io/github/release/ripred/CPUVolt.svg?maxAge=3600)](https://github.com/ripred/CPUVolt/releases)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ripred/CPUVolt/blob/master/LICENSE)
