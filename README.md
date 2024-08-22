@@ -70,7 +70,7 @@ void setup() {
     bool const needs_charging = pct <= low_pct;// set a "needs charging" flag
     int const led_pin = LED_BUILTIN;           // Or use any other GPIO pin (besides A6 or A7)
     pinMode(led_pin, OUTPUT);                  // set the pin as an output
-    digitalWrite(led_pin, needs_charging);     // set the LED  pin HIGH or LOW as needed
+    digitalWrite(led_pin, needs_charging);     // set the LED pin HIGH or LOW as needed
 }
 
 void loop() { }
