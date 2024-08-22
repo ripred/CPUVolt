@@ -20,7 +20,7 @@ You can also optionally supply the voltage level that is considered to be 0% and
 This is really useful for battery-based projects! You can now specify the lower voltage level you would like to use to
 indicate when the system needs recharging and the level at which it is fully charged!
 ___
-Example use:
+## Example use:
 ```cpp
 /*
  * CPUVolt.ino
@@ -76,8 +76,7 @@ void setup() {
 void loop() { }
 ```
 
-Example Output:
-#
+## Example Output:
 ```
 Voltage: 4.67
 Percent: 93.38
