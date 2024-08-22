@@ -76,8 +76,7 @@ void setup() {
 void loop() { }
 ```
 
-Output:
-
+Example Output:
 #
 ```
 Voltage: 4.67
