@@ -1,0 +1,57 @@
+name: Bug report
+description: Report a reproducible bug.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a bug. A minimal sketch, command, or generated artifact is the fastest path to a fix.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What went wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include version or commit, board/FQBN, Arduino core, compiler, and relevant libraries.
+      placeholder: |
+        Commit or release:
+        Board/FQBN:
+        Arduino IDE or CLI:
+        Arduino core:
+        Relevant libraries:
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction
+      description: Include a minimal sketch, command sequence, generated output, or steps from an included example.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Paste compiler output, serial output, browser console messages, or screenshots when useful.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues first.
+          required: true
+        - label: I reduced this to the smallest example I can.
+          required: false
