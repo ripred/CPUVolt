@@ -3,6 +3,9 @@ name: Arduino CI
 
 on: [push, pull_request]
 
+permissions:
+  contents: read
+
 jobs:
   runTest:
     runs-on: ubuntu-latest
