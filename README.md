@@ -1,10 +1,9 @@
-[![Arduino CI](https://github.com/ripred/CPUVolt/workflows/Arduino%20CI/badge.svg)](https://github.com/marketplace/actions/arduino_ci)
+[![Arduino CI](https://github.com/ripred/CPUVolt/actions/workflows/arduino_test_runner.yml/badge.svg)](https://github.com/ripred/CPUVolt/actions/workflows/arduino_test_runner.yml)
 [![Arduino-lint](https://github.com/ripred/CPUVolt/actions/workflows/arduino-lint.yml/badge.svg)](https://github.com/ripred/CPUVolt/actions/workflows/arduino-lint.yml)
-![code size:](https://img.shields.io/github/languages/code-size/ripred/CPUVolt)
-[![GitHub release](https://img.shields.io/github/release/ripred/CPUVolt.svg?maxAge=3600)](https://github.com/ripred/CPUVolt/releases)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ripred/CPUVolt/blob/master/LICENSE)
-[![Stars](https://img.shields.io/github/stars/ripred/CPUVolt.svg?style=flat-square&colorB=4183c4)](https://github.com/ripred/CPUVolt)
-[![Forks](https://img.shields.io/github/forks/ripred/CPUVolt.svg?style=flat-square&colorB=4183c4)](https://github.com/ripred/CPUVolt)
+[![GitHub release](https://flat.badgen.net/github/release/ripred/CPUVolt)](https://github.com/ripred/CPUVolt/releases/latest)
+[![License: MIT](https://flat.badgen.net/github/license/ripred/CPUVolt)](https://github.com/ripred/CPUVolt/blob/main/LICENSE)
+[![Stars](https://flat.badgen.net/github/stars/ripred/CPUVolt)](https://github.com/ripred/CPUVolt/stargazers)
+[![Forks](https://flat.badgen.net/github/forks/ripred/CPUVolt)](https://github.com/ripred/CPUVolt/network/members)
 
 # CPU Voltage
 
