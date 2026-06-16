@@ -2,9 +2,8 @@ name: JSON check
 
 on:
   push:
-    paths:
-      - '**.json'
   pull_request:
+  workflow_dispatch:
 
 permissions:
   contents: read
