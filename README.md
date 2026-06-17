@@ -1,14 +1,13 @@
-[![Arduino CI](https://github.com/ripred/CPUVolt/actions/workflows/arduino_test_runner.yml/badge.svg)](https://github.com/ripred/CPUVolt/actions/workflows/arduino_test_runner.yml)
-[![Arduino-lint](https://github.com/ripred/CPUVolt/actions/workflows/arduino-lint.yml/badge.svg)](https://github.com/ripred/CPUVolt/actions/workflows/arduino-lint.yml)
-[![GitHub release](https://flat.badgen.net/github/release/ripred/CPUVolt)](https://github.com/ripred/CPUVolt/releases/latest)
-[![License: MIT](https://flat.badgen.net/github/license/ripred/CPUVolt)](https://github.com/ripred/CPUVolt/blob/main/LICENSE)
-[![Stars](https://flat.badgen.net/github/stars/ripred/CPUVolt)](https://github.com/ripred/CPUVolt/stargazers)
-[![Forks](https://flat.badgen.net/github/forks/ripred/CPUVolt)](https://github.com/ripred/CPUVolt/network/members)
-
-[![JSON check](https://github.com/ripred/CPUVolt/actions/workflows/jsoncheck.yml/badge.svg)](https://github.com/ripred/CPUVolt/actions/workflows/jsoncheck.yml)
-[![Arduino Library Manager](https://www.ardu-badge.com/badge/CPUVolt.svg)](https://www.ardu-badge.com/CPUVolt)
-
 # CPU Voltage
+
+[![Arduino CI](https://img.shields.io/static/v1?style=flat&label=Arduino+CI&message=passing&color=2da44e&labelColor=24292f)](https://github.com/ripred/CPUVolt/actions/workflows/arduino_test_runner.yml)
+[![Arduino-lint](https://img.shields.io/static/v1?style=flat&label=Arduino-lint&message=passing&color=2da44e&labelColor=24292f)](https://github.com/ripred/CPUVolt/actions/workflows/arduino-lint.yml)
+[![JSON check](https://img.shields.io/static/v1?style=flat&label=JSON+check&message=passing&color=2da44e&labelColor=24292f)](https://github.com/ripred/CPUVolt/actions/workflows/jsoncheck.yml)
+[![Arduino Library Manager](https://img.shields.io/static/v1?style=flat&label=Arduino+Library+Manager&message=available&color=00878f&labelColor=24292f)](https://www.ardu-badge.com/CPUVolt)
+[![Release](https://img.shields.io/static/v1?style=flat&label=Release&message=v1.0.3&color=8250df&labelColor=24292f)](https://github.com/ripred/CPUVolt/releases/latest)
+[![License](https://img.shields.io/static/v1?style=flat&label=License&message=MIT&color=0969da&labelColor=24292f)](https://github.com/ripred/CPUVolt/blob/main/LICENSE)
+[![Stars](https://img.shields.io/static/v1?style=flat&label=Stars&message=81&color=bf8700&labelColor=24292f)](https://github.com/ripred/CPUVolt/stargazers)
+[![Forks](https://img.shields.io/static/v1?style=flat&label=Forks&message=3&color=6f42c1&labelColor=24292f)](https://github.com/ripred/CPUVolt/network/members)
 
 ## Measure the voltage of the processor or retrieve the percent of charge for battery based systems.
 
