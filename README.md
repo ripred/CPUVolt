@@ -5,6 +5,9 @@
 [![Stars](https://flat.badgen.net/github/stars/ripred/CPUVolt)](https://github.com/ripred/CPUVolt/stargazers)
 [![Forks](https://flat.badgen.net/github/forks/ripred/CPUVolt)](https://github.com/ripred/CPUVolt/network/members)
 
+[![JSON check](https://github.com/ripred/CPUVolt/actions/workflows/jsoncheck.yml/badge.svg)](https://github.com/ripred/CPUVolt/actions/workflows/jsoncheck.yml)
+[![Arduino Library Manager](https://www.ardu-badge.com/badge/CPUVolt.svg)](https://www.ardu-badge.com/CPUVolt)
+
 # CPU Voltage
 
 ## Measure the voltage of the processor or retrieve the percent of charge for battery based systems.
@@ -81,4 +84,3 @@ Voltage: 4.67
 Percent: 93.38
 Percent: 98.28
 ```
-
